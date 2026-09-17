@@ -1,143 +1,72 @@
 <!doctype html>
 <html lang="cs">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Shreki Music — hudba, merch, kamiony a život na cestách.">
-  <title>SHREKI MUSIC — Music • Trucks • Life • Freedom</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Shreki Music — hudba z cest, příběhy ze života a vlastní hudební svět.">
+<title>Shreki Music | Music • Trucks • Life • Freedom</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Shreki Music domů">
-      <span class="brand-main">SHREKI</span>
-      <span class="brand-sub">MUSIC</span>
-    </a>
-    <button class="menu-btn" aria-label="Otevřít menu" aria-expanded="false">☰</button>
-    <nav id="nav">
-      <a href="#music">Hudba</a>
-      <a href="#merch">Merch</a>
-      <a href="#about">O projektu</a>
-      <a href="#contact">Kontakt</a>
-    </nav>
-  </header>
+<header>
+  <a class="logo" href="#home"><b>SHREKI</b><span>MUSIC</span></a>
+  <button class="menu" aria-label="Menu">☰</button>
+  <nav><a href="#home">Domů</a><a href="#music">Hudba</a><a href="#about">O mně</a><a href="#gallery">Galerie</a><a href="#contact">Kontakt</a></nav>
+</header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">MUSIC • TRUCKS • LIFE • FREEDOM</p>
-        <h1>Music<br><span>Drives My Way.</span></h1>
-        <p class="lead">Hudba z kabiny kamionu. Vlastní příběhy, vlastní energie, vlastní cesta.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="#merch">Prohlédnout merch</a>
-          <a class="btn btn-ghost" href="#music">Poslechnout hudbu</a>
-        </div>
-      </div>
-      <div class="hero-art">
-        <img src="assets/shreki-hero.png" alt="Shreki Music — kamion na noční cestě">
-      </div>
-    </section>
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="tag">MUSIC • TRUCKS • LIFE • FREEDOM</p>
+    <h1>HUDBA<br><em>Z CESTY.</em></h1>
+    <p>Vítej ve světě Shreki Music. Hudba, která vzniká mezi kilometry, čekáním, nocemi na cestách a životem.</p>
+    <div class="buttons"><a class="btn gold" href="#music">POSLOUCHAT HUDBU</a><a class="btn" href="#about">MŮJ PŘÍBĚH</a></div>
+  </div>
+  <img class="hero-img" src="assets/shreki-main.png" alt="Shreki Music">
+</section>
 
-    <section class="section" id="merch">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">SHREKI MUSIC MERCH</p>
-          <h2>Merch pro ty, kteří jsou na cestě.</h2>
-        </div>
-        <p>První kolekce je připravená jako základ. Produkty a ceny můžeš později snadno doplnit.</p>
-      </div>
+<section class="section" id="music">
+  <p class="tag">POSLOUCHEJ SHREKI MUSIC</p><h2>MOJE HUDBA</h2>
+  <p class="intro">Najdeš mě na hlavních hudebních platformách. Vyber si, kde posloucháš nejraději.</p>
+  <div class="music-grid">
+    <a class="music-card" href="#" target="_blank"><strong>▶</strong><b>YOUTUBE</b><span>Videoklipy • songy • novinky</span></a>
+    <a class="music-card" href="#" target="_blank"><strong>♫</strong><b>SPOTIFY</b><span>Poslouchej všechny releasy</span></a>
+    <a class="music-card" href="#" target="_blank"><strong>♪</strong><b>APPLE MUSIC</b><span>Moje hudba na Apple Music</span></a>
+    <a class="music-card" href="#" target="_blank"><strong>♪</strong><b>TIKTOK</b><span>Krátká videa a novinky</span></a>
+  </div>
+  <p class="hint">Odkazy na tvoje skutečné profily doplníme, až mi je pošleš.</p>
+</section>
 
-      <div class="products">
-        <article class="product">
-          <div class="product-art">SHREKI<br><small>MUSIC</small></div>
-          <div class="product-info">
-            <h3>Shreki Music — Classic Tee</h3>
-            <p>Černé tričko s hlavním logem.</p>
-            <strong>599 Kč</strong>
-            <button class="add" data-product="Shreki Music — Classic Tee">Přidat do košíku</button>
-          </div>
-        </article>
-        <article class="product">
-          <div class="product-art alt">MUSIC<br><small>DRIVES MY WAY</small></div>
-          <div class="product-info">
-            <h3>Music Drives My Way</h3>
-            <p>Prémiový motiv pro řidiče a fanoušky hudby.</p>
-            <strong>649 Kč</strong>
-            <button class="add" data-product="Music Drives My Way">Přidat do košíku</button>
-          </div>
-        </article>
-        <article class="product">
-          <div class="product-art gold">SM<br><small>SHREKI MUSIC</small></div>
-          <div class="product-info">
-            <h3>Shreki Music Hoodie</h3>
-            <p>Černá mikina s výrazným emblémem.</p>
-            <strong>1 099 Kč</strong>
-            <button class="add" data-product="Shreki Music Hoodie">Přidat do košíku</button>
-          </div>
-        </article>
-      </div>
-      <p class="note">* Ceny jsou ukázkové — před spuštěním je nahradíme skutečnými cenami a nastavíme dopravu/platbu.</p>
-    </section>
+<section class="about section" id="about">
+ <div><p class="tag">KDO JE SHREKI MUSIC?</p><h2>MOJE CESTA<br><em>MOJE HUDBA.</em></h2></div>
+ <div class="about-copy">
+   <p>Jsem řidič kamionu a hudba je moje druhá cesta. Nápady na songy vznikají během cest po Evropě, večer v kabině i ve chvílích, kdy člověk čeká na nakládku nebo vykládku.</p>
+   <p>Shreki Music spojuje moje zkušenosti, emoce a příběhy s moderními hudebními styly. Od elektroniky a hip hopu až po filmovou a emotivní hudbu.</p>
+   <p class="quote">„Hudba není jen to, co slyšíš. Je to to, co v tobě zůstane.“</p>
+ </div>
+</section>
 
-    <section class="split section" id="music">
-      <div>
-        <p class="eyebrow">SHREKI MUSIC</p>
-        <h2>Hudba, která vzniká na cestách.</h2>
-        <p>Elektronika, hip hop, cinematic sound i příběhy ze života kamioňáka. Tady najdeš novinky, připravované releasy a odkazy na platformy.</p>
-        <div class="platforms">
-          <a href="#" class="platform">▶ YouTube</a>
-          <a href="#" class="platform">♫ Spotify</a>
-          <a href="#" class="platform">♪ Apple Music</a>
-          <a href="#" class="platform">♪ TikTok</a>
-        </div>
-      </div>
-      <div class="quote">
-        <span>“</span>
-        <p>Více než hudba.<br><b>Je to cesta.</b></p>
-      </div>
-    </section>
+<section class="section gallery" id="gallery">
+ <p class="tag">VIZUÁLNÍ SVĚT</p><h2>GALERIE</h2>
+ <div class="gallery-grid">
+   <figure><img src="assets/shreki-main.png" alt="Shreki Music vizuál"><figcaption>SHREKI MUSIC</figcaption></figure>
+   <div class="placeholder">DALŠÍ<br>OBALY<br>A VIZUÁLY</div>
+   <div class="placeholder">PŘIPRAVUJEME<br>NOVÉ<br>PROJEKTY</div>
+ </div>
+ <p class="hint">Sem můžeme postupně přidávat tvoje obaly alb, singly a další grafiku.</p>
+</section>
 
-    <section class="section about" id="about">
-      <p class="eyebrow">O PROJEKTU</p>
-      <h2>SHREKI MUSIC</h2>
-      <p class="wide">Projekt spojuje svět kamionů, cestování a hudby. Z jednoho nápadu může vzniknout song, vizuál i merch — a všechno má společný rukopis.</p>
-    </section>
+<section class="contact section" id="contact">
+ <p class="tag">SPOJME SE</p><h2>KONTAKT & SOCIALS</h2>
+ <div class="socials">
+  <a href="#">TikTok</a><a href="#">Instagram</a><a href="#">Facebook</a><a href="mailto:">E-mail</a>
+ </div>
+</section>
+</main>
 
-    <section class="section contact" id="contact">
-      <div>
-        <p class="eyebrow">KONTAKT</p>
-        <h2>Chceš napsat?</h2>
-        <p>Sem později vložíme skutečný e-mail, sociální sítě a případně formulář.</p>
-      </div>
-      <div class="contact-card">
-        <div class="contact-row"><span>E-mail</span><b>tvůj@email.cz</b></div>
-        <div class="contact-row"><span>TikTok</span><b>@shreki.music</b></div>
-        <div class="contact-row"><span>Instagram</span><b>@shreki.music</b></div>
-      </div>
-    </section>
-  </main>
-
-  <aside class="cart" id="cart" aria-live="polite">
-    <div class="cart-head">
-      <b>Košík</b>
-      <button id="closeCart" aria-label="Zavřít košík">×</button>
-    </div>
-    <div id="cartItems" class="cart-items"><p>Košík je zatím prázdný.</p></div>
-    <div class="cart-foot">
-      <div><span>Celkem</span><strong id="total">0 Kč</strong></div>
-      <button class="btn btn-primary checkout" id="checkout">Objednat</button>
-      <small>Objednávková platba se doplní při nasazení skutečného e-shopu.</small>
-    </div>
-  </aside>
-
-  <button class="cart-fab" id="openCart" aria-label="Otevřít košík">🛒 <span id="count">0</span></button>
-
-  <footer>
-    <div class="footer-brand">SHREKI MUSIC</div>
-    <div>Music • Trucks • Life • Freedom</div>
-    <div>© <span id="year"></span> Shreki Music</div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<footer><b>SHREKI MUSIC</b><span>Music • Trucks • Life • Freedom</span><span>© <script>document.write(new Date().getFullYear())</script></span></footer>
+<script>
+const btn=document.querySelector('.menu'),nav=document.querySelector('nav');
+btn.onclick=()=>nav.classList.toggle('open');
+document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));
+</script>
+</body></html>
